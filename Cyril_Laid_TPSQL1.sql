@@ -36,5 +36,5 @@
 
 --Q2. afficher le nom et la quantité en stock des produits;
 
-	SELECT DISTINCT nom_produit, stock FROM Produits;
+	SELECT nom_produit, stock FROM Produits;
 	SELECT nom_produit, SUM(stock) as total_stock from Produits GROUP BY nom_produit;
